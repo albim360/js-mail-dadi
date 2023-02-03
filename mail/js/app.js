@@ -1,5 +1,6 @@
 // Definisci l'array di email
 const emailList = ["email1@icloud.com", "email2@gmail.com", "email3@libero.com", "tiziocaio@email.it"];console.log(emailList)
+emailList.push("email4@hotmail.com", "email5@yahoo.com");
 
 function checkEmail() {
   // Chiedi l'email all'utente
