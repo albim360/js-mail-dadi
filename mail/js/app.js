@@ -2,6 +2,8 @@
 const emailList = ["email1@icloud.com", "email2@gmail.com", "email3@libero.com", "tiziocaio@email.it"];console.log(emailList)
 emailList.push("email4@hotmail.com", "email5@yahoo.com");
 
+console.log(emailList)
+
 function checkEmail() {
   // Chiedi l'email all'utente
   const userEmail = prompt("Inserisci la tua email:");
