@@ -17,11 +17,11 @@ function playGame() {
     } else if (computerNumber > playerNumber) {
       winner = "il Computer";
     } else {
-      winner = "Pareggio";
+      winner = "Nessuno, è un pareggio";
     }
     
     console.log("Vincitore:", winner);
     
     // Stampa il risultato
-    alert("Il giocatore ha totalizzato " + scores[0] + ", il computer ha totalizzato " + scores[1] + ". Il vincitore è " + winner + ".");
+    alert("Il giocatore ha totalizzato " + scores[0] + ", il computer ha totalizzato " + scores[1] + ". Il vincitore è:" + winner + ".");
   }
