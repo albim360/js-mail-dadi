@@ -20,14 +20,14 @@ break;
 
 // Mostriamo il risultato
 const resultContainer = document.getElementById("resultContainer");
-resultContainer.innerHTML = emailFound ? "Email " + userEmail + " trovata nella lista" : "Email " + userEmail + " non trovata nella lista";
+resultContainer.innerHTML = emailFound ? "Email <strong>" + userEmail + "</strong> trovata nella lista" : "Email <strong>" + userEmail + "</strong>  non trovata nella lista";
 resultContainer.classList.add(emailFound ? "success" : "fail");
 
 // Fai scomparire il risultato dopo 5 secondi
 setTimeout(function() {
     resultContainer.innerHTML = "";
     resultContainer.className = "";
-}, 2500);
+}, 2750);
 
 
 }

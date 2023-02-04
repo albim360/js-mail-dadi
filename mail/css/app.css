@@ -66,3 +66,10 @@ display: block;
 text-align: center;
 border-radius: 5px;
 border: 1px solid
+}
+
+.email-text {
+    font-size: 40px;
+
+  }
+  
