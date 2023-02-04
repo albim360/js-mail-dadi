@@ -15,5 +15,5 @@ function playGame() {
 
   // Mostra il risultato
   let resultEl = document.getElementById("result");
-  resultEl.innerHTML = `Il giocatore ha totalizzato ${playerNumber}, il computer ha totalizzato ${computerNumber}. : ${winner}.`;
+  resultEl.innerHTML = `Il giocatore ha totalizzato ${playerNumber}, il computer ha totalizzato ${computerNumber}. ${winner}.`;
 }
