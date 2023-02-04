@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Checker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Checker</title>
+  <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    <button onclick="checkEmail()">Controlla email</button>
+  <!-- Input per inserire l'email dell'utente -->
+  <input type="email" id="userEmail" placeholder="Inserisci la tua email">
+  <!-- Bottone per controllare l'email dell'utente -->
+  <button id="checkEmailButton">Controlla email</button>
 
-    <script src="./js/app.js"></script>
-  </body>
+  <!-- Contenitore per i risultati -->
+  <div id="resultContainer"></div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+
 </html>

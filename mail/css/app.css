@@ -1,0 +1,68 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Stile per il contenitore dei risultati */
+#resultContainer {
+width: 50%;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+border-radius: 5px;
+box-shadow: 0 2px 5px #ccc;
+animation: slideIn 0.5s ease-out;
+}
+
+/* Stile per il risultato positivo */
+#resultContainer.success {
+background-color: lightgreen;
+color: green;
+}
+
+/* Stile per il risultato negativo */
+#resultContainer.fail {
+background-color: lightcoral;
+color: red;
+}
+
+/* Animazione per il contenitore dei risultati */
+@keyframes slideIn {
+from {
+transform: translateY(-50%);
+opacity: 0;
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+/* Stile per l'input email */
+#userEmail {
+width: 200px;
+padding: 10px;
+margin: 20px auto;
+display: block;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-shadow: 0 2px 5px #ccc;
+}
+
+/* Stile per il bottone "Controlla email" */
+#checkEmailButton {
+width: 200px;
+padding: 10px;
+margin: 20px auto;
+display: block;
+text-align: center;
+border-radius: 5px;
+border: 1px solid
